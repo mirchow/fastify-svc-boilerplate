@@ -37,7 +37,7 @@ app.register(require('./service/test'))
 
 const start = async opts => {
   try {
-    await app.listen(3000, '::')
+    await app.listen(opts.port, '::')
     app.log.info(`server listeing on ${app.server.address().port}`)
   } catch (err) {
     app.log.error(err)
