@@ -1,6 +1,6 @@
 'use strict'
 require('dotenv').config()
-const log = require('pino')({ level: 'info' })
+// const log = require('pino')({ level: 'info' })
 const app = require('fastify')()
 // const fastifyEnv = require('fastify-env')
 const helloHandler = require('./handlers/helloHandler')
