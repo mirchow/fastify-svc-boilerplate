@@ -26,16 +26,15 @@
   },
   "homepage": "https://github.com/mirchow/fastify-svc-boilerplate#readme",
   "dependencies": {
-    "dotenv": "^5.0.1",
-    "fastify": "1.5.0",
-    "fastify-env": "0.6.0"
+    "dotenv": "6.1.0",
+    "fastify": "1.12.1",
+    "fastify-env": "0.6.1"
   },
   "devDependencies": {
-    "jest": "^22.4.2",
-    "nodemon": "1.17.5",
-    "pino-colada": "^1.4.4",
-    "standard": "^11.0.0",
-    "supertest": "^3.0.0"
+    "jest": "23.6.0",
+    "nodemon": "1.18.4",
+    "standard": "12.0.1",
+    "supertest": "3.3.0"
   },
   "jest": {
     "verbose": true
