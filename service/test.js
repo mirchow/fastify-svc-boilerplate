@@ -20,7 +20,7 @@ async function routes(fastify, opts) {
       }
     },
     // this function is executed for every request before the handler is executed
-    beforeHandler: async (req, res) => {
+    preHandler: async (req, res) => {
       // check authentication
     },
     handler: async (req, res) => {
